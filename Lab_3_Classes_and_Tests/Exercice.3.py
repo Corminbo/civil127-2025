@@ -1,3 +1,4 @@
+#Exercice 3.1
 class Stack:
     def __init__(self):
         self.stack = []
@@ -46,4 +47,8 @@ if __name__ == "__main__":
     print(s.max())  # devrait afficher 5
     print(s.min())  # devrait afficher 1
 """
-s.pop()
+#Exerice 3.2
+"""Modification des fonction push et pop pour qu'elles retournent un message d'erreur si la pile est vide"""
+
+#Exercice 3.3
+"/Users/tcormin/Desktop/Travail/EPFL/BA2/Programming and software development for engieers/civil127-2025/SOKOBAN_PROJECT_copy"
