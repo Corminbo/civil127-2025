@@ -132,6 +132,12 @@ class Controller:
         if not invalid:
             self.view.print_board(self.model.board)
         return True
+    
+    def wrap_underscores(word):
+        r = "_"
+        for i in range(len(word)):
+            r += word[i] + "_"
+        return r
 
 if __name__ == "__main__":
     model = Model("SOKOBAN_PROJECT/level1.xsb.txt")
