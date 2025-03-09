@@ -1,5 +1,5 @@
 #Exercice 3.1
-class Stack:
+"""class Stack:
     def __init__(self):
         self.stack = []
         self.max_stack = []
@@ -38,7 +38,7 @@ class Stack:
 # Exemple d'utilisation
 if __name__ == "__main__":
     s = Stack()
-"""    s.push(1)
+    s.push(1)
     s.push(5)
     print(s.max())  # devrait afficher 5
     s.push(9)
@@ -46,9 +46,41 @@ if __name__ == "__main__":
     s.push(2)
     print(s.max())  # devrait afficher 5
     print(s.min())  # devrait afficher 1
+
 """
 #Exerice 3.2
 """Modification des fonction push et pop pour qu'elles retournent un message d'erreur si la pile est vide"""
 
 #Exercice 3.3
 "/Users/tcormin/Desktop/Travail/EPFL/BA2/Programming and software development for engieers/civil127-2025/SOKOBAN_PROJECT_copy"
+
+#Exercice 3.4
+
+#Exercice 3.5
+"""word = input("Enter a word: ")
+
+def wrap_underscores(word):
+    '''Adds an underscore between each letter. E.g. "hello" becomes "_h_e_l_l_o_".'''
+    r = "_"
+    for i in range(len(word)):
+        r += word[i] + "_"
+    return r
+print(wrap_underscores(word))
+"""
+#Exercice 3.6
+
+def permutation(coinage, sum):
+    if sum == 0:
+        return 1
+    if sum < 0:
+        return 0
+    if len(coinage) == 0:
+        return 0
+    return []
+
+coinage = [2, 3, 7]
+sum = 40
+permutations = (permutation(coinage, sum))  
+print(permutations)  
+
+
