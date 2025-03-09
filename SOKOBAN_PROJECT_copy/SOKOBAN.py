@@ -126,10 +126,11 @@ class Controller:
                 invalid = None
             case 'q':
                 return False
+            case _:
+                print("invalid command")
+                invalid = True
         if not invalid:
             self.view.print_board(self.model.board)
-        else:
-            print('invalid move: ', invalid)
         return True
 
 if __name__ == "__main__":
