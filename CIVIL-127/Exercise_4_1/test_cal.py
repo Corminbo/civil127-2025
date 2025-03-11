@@ -14,6 +14,6 @@ c.print()
 c = Cal()
 c.month("aug")
 c.year(2025)
-c.week_start("thu")
+c.week_start("mon")
 c.print()
 
